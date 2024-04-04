@@ -2259,6 +2259,10 @@ input[type="range"]::-webkit-slider-thumb {
         height: var(--percent100);
     }
 
+    .single-checkout .item.right{
+        margin-left: 2em;
+    }
+
 }
 
 
@@ -2322,10 +2326,6 @@ input[type="range"]::-webkit-slider-thumb {
         right: 0;
     }
 
-    .single-checkout .item.right{
-        margin-left: 2em;
-    }
-
 }
 
 
@@ -2381,6 +2381,7 @@ input[type="range"]::-webkit-slider-thumb {
 
     .checkout .item.right {
         padding: 5em 0 0 5em;
+        margin-left: 0;
     }
 
 
