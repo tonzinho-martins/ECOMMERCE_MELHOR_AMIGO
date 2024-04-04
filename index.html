@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhor Amigo | Petshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="site page-home" id="page">
+        
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo"></div>
+                    <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <div class="thetop-nav"></div>
+            </div>
+        </aside>
+
+        <header>
+            <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Produtos em Alta</a></li>
+                                <li><a href="#">Favoritos</a></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem main-links">
+                                <li><a href="#">Entrar</a></li>
+                                <li><a href="#">Minha Conta</a></li>
+                                <li><a href="#">Rastrear Pedido</a></li>
+                                <li><a href="#">Fale Conosco</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-nav">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <a href="#" class="trigger desktop-hide"><i class="ri-menu-2-line"></i></a>
+                        <div class="left flexitem">
+                            <a href="/index.html"><div class="logo"></div></a>
+                            <nav class="mobile-hide">
+                                <ul class="flexitem second-links">
+                                    <li><a href="/index.html">Home</a></li>
+                                    <li><a href="/page-category.html">Loja</a></li>
+                                    <li class="has-child">
+                                        <a href="#">Pets
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega">
+                                            <div class="container">
+                                                <div class="wrapper">
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Cachorro</h4>
+                                                            <ul>
+                                                                <li><a href="#">Ração</a></li>
+                                                                <li><a href="#">Petiscos e Ossos</a></li>
+                                                                <li><a href="#">Farmácia</a></li>
+                                                                <li><a href="#">Brinquedos</a></li>
+                                                                <li><a href="#">Acessórios</a></li>
+                                                                <li><a href="#">Camas e Cobertores</a></li>
+                                                                <li><a href="#">Roupas</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Gato</h4>
+                                                            <ul>
+                                                                <li><a href="#">Ração</a></li>
+                                                                <li><a href="#">Petiscos</a></li>
+                                                                <li><a href="#">Areias e Banheiros</a></li>
+                                                                <li><a href="#">Arranhadores e Brinquedos</a></li>
+                                                                <li><a href="#">Beleza e Limpeza</a></li>
+                                                                <li><a href="#">Acessórios</a></li>
+                                                                <li><a href="#">Roupas</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Outros Pets</h4>
+                                                            <ul>
+                                                                <li><a href="#">Coelhos</a></li>
+                                                                <li><a href="#">Hamister</a></li>
+                                                                <li><a href="#">Chinchila</a></li>
+                                                                <li><a href="#">Tartarugas</a></li>
+                                                                <li><a href="#">Lagartos</a></li>
+                                                                <li><a href="#">Peixe</a></li>
+                                                                <li><a href="#">Pássatos</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Marcas</h4>
+                                                            <ul class="brands">
+                                                                <li><a href="#">Whiskas</a></li>
+                                                                <li><a href="#">Pedigree</a></li>
+                                                                <li><a href="#">Elanco</a></li>
+                                                                <li><a href="#">Royal Canin</a></li>
+                                                                <li><a href="#">Purina</a></li>
+                                                                <li><a href="#">Pet Society</a></li>
+                                                                <li><a href="#">Zee.dog</a></li>
+                                                            </ul>
+                                                            <a href="#" class="view-all">Todas as marcas <i class="ri-arrow-right-line"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flexcol products">
+                                                        <div class="row">
+                                                            <div class="media">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="assets/banners/dog1.jpg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-content">
+                                                                <h4>Ele vai adorar!</h4>
+                                                                <a href="#" class="primary-button">Ver produtos</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Promoções</a></li>
+                                    <li>
+                                        <a href="#">Lançamentos
+                                            <div class="fly-item"><span>New!</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li class="mobile-hide">
+                                    <a href="#" class="iscart">
+                                        <div class="icon-large"><i class="ri-heart-line"></i></div>
+                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                    </a>
+                                </li>
+                                <li class="iscart">
+                                    <a href="#">
+                                        <div class="icon-large">
+                                            <i class="ri-shopping-cart-line"></i>
+                                            <div class="fly-item"><span class="item-number">0</span></div>
+                                        </div>
+                                        <div class="icon-text">
+                                            <div class="mini-text">Total</div>
+                                            <div class="cart-total">R$ 0.00</div>
+                                        </div>
+                                    </a>
+
+                                    <div class="mini-cart">
+                                        <div class="content">
+                                            <div class="cart-head">
+                                                Nenhum item no carrinho
+                                            </div>
+                                            <div class="cart-body">
+                                                <ul class="products mini">
+                                                    <!-- list cart products -->
+                                                </ul>
+                                            </div>
+                                            <div class="cart-footer">
+                                                <div class="subtotal">
+                                                    <p>Subtotal</p>
+                                                    <p><strong>R$ 0.00</strong></p>
+                                                </div>
+                                                <div class="actions">
+                                                    <a href="/checkout.html" class="primary-button">Checkout</a>
+                                                    <a href="/cart.html" class="secondary-button">Ver Carrinho</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-main mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <div class="dpt-cat">
+                                <div class="dpt-head">
+                                    <div class="main-text">Todas as Categorias</div>
+                                    <div class="mini-text">Diversos itens para você</div>
+                                    <a href="#" class="dpt-trigger mobile-hide">
+                                        <i class="ri-menu-3-line ri-xl"></i>
+                                    </a>
+                                </div>
+                                <div class="dpt-menu">
+                                    <ul class="second-links">
+                                        <li class="has-child dog">
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/pastel-glyph/64/dog-sit--v3.png" alt="dog-sit--v3"/></div>
+                                                Cachorro
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Ração</a></li>
+                                                <li><a href="#">Petiscos e Ossos</a></li>
+                                                <li><a href="#">Brinquedos</a></li>
+                                                <li><a href="#">Acessórios</a></li>
+                                                <li><a href="#">Beleza e Limpeza</a></li>
+                                                <li><a href="#">Farmácia</a></li>
+                                                <li><a href="#">Roupas</a></li>
+                                                <li><a href="#">Casas e Tocas</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child cat">
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/ios/50/cat-head--v1.png" alt="cat-head--v1"/></div>
+                                                Gato
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Ração</a></li>
+                                                <li><a href="#">Petiscos</a></li>
+                                                <li><a href="#">Areias e Banheiros</a></li>
+                                                <li><a href="#">Farmácia</a></li>
+                                                <li><a href="#">Arranhadores e Brinquedos</a></li>
+                                                <li><a href="#">Beleza e Limpeza</a></li>
+                                                <li><a href="#">Camas e Tocas</a></li>
+                                                <li><a href="#">Roupas</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/sf-regular/48/bird.png" alt="bird"/></div>
+                                                Pássaro
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/hatch/64/fish.png" alt="fish"/></i></div>
+                                                Peixe
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/ios/50/rabbit--v1.png" alt="rabbit--v1"/></div>
+                                                Coelho
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/sf-regular/48/turtle.png" alt="turtle"/></div>
+                                                Tartarugas
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/ios/50/lizard.png" alt="lizard"/></div>
+                                                Lagartos
+                                            </a>
+                                        </li>
+                                        <li class="has-child acessories">
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/badges/48/cat-footprint.png" alt="cat-footprint"/></div>
+                                                Outros Pets
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <div class="mega">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Hamster e Twister</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Ração</a></li>
+                                                            <li><a href="#">Gaiolas e Casinhas</a></li>
+                                                            <li><a href="#">Brinquedos</a></li>
+                                                            <li><a href="#">Farmácia</a></li>
+                                                            <li><a href="#">Acessórios</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Porquinho da Índia</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Ração</a></li>
+                                                            <li><a href="#">Brinquedos e Acessórios</a></li>
+                                                            <li><a href="#">Higiene</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Chinchila</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Ração</a></li>
+                                                            <li><a href="#">Gaiolas e Casinhas</a></li>
+                                                            <li><a href="#">Brinquedos</a></li>
+                                                            <li><a href="#">Acessórios</a></li>
+                                                            <li><a href="#">Limpeza e Higiene</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Furão</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Ração</a></li>
+                                                            <li><a href="#">Brinquedos e Acessórios</a></li>
+                                                            <li><a href="#">Limpeza</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Gerbil</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Ração</a></li>
+                                                            <li><a href="#">Casinhas</a></li>
+                                                            <li><a href="#">Serragens</a></li>
+                                                            <li><a href="#">Granulados</a></li>
+                                                            <li><a href="#">Brinquedos</a></li>
+                                                            <li><a href="#">Acessórios</a></li>
+                                                            <li><a href="#">Vitaminas</a></li>
+                                                            <li><a href="#">Limpeza</a></li>
+                                                            <li><a href="#">Higiene</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/sf-regular/48/home.png" alt="home"/></div>
+                                                Casa e Jardim
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img src="https://img.icons8.com/pulsar-line/48/000000/dashboard-layout.png" alt="dashboard-layout"/></div>
+                                                Serviços
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><img color: red src="https://img.icons8.com/ios/50/discount--v1.png" alt="discount--v1"/></div>
+                                                Promoções
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="search-box">
+                                <form action="" class="search">
+                                    <span class="icon-large"><i class="ri-search-line"></i></span>
+                                    <input type="search" placeholder="O que seu pet precisa?">
+                                    <button type="submit">Pesquisar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+
+            <div class="slider">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="myslider swiper">
+                            <div class="swiper-wrapper">
+            
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="assets/slider/slide_001.jpeg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Banho e Tosa</h4>
+                                            <h2><span>Seu Pet </span><br><span>Bem cuidado</span></h2>
+                                            <a href="#" class="primary-button">Agendar agora</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="assets/slider/slide5.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Banho e Tosa</h4>
+                                            <h2><span>Itens de Beleza</span><br><span>Ele Vai Amar</span></h2>
+                                            <a href="#" class="primary-button">Confira agora</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="assets/slider/slide7.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Veterinária</h4>
+                                            <h2><span>Cuidado que seu<br>Pet precisa</span><br><span>Consulte Conosco</span></h2>
+                                            <a href="#" class="primary-button">Agendar agora</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="informations">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="item">
+                            <i class="ri-24-hours-line icon-large"></i>
+                            <h4>Receba em até 24 horas</h4>
+                        </div>
+                        <div class="item">
+                            <i class="ri-truck-line icon-large"></i>
+                            <h4>Frete Grátis Brasil</h4>
+                        </div>
+                        <div class="item">
+                            <i class="ri-bank-card-2-line icon-large"></i>
+                            <h4>Até 10x Sem Juros</h4>
+                        </div>
+                        <div class="item">
+                            <i class="ri-store-2-line icon-large"></i>
+                            <h4>Retire na Loja</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sectop flexitem">
+                            <h2><span class="circle"></span><span>Produtos em Destaque</span></h2>
+                        </div>
+                        <div class="column">
+                            <div class="flexwrap">
+                                <div class="row products big">
+                                    <!-- trendingProductBig -->
+                                </div>
+
+                                <div class="row products mini" id="first-row-trending">
+                                    <!-- first column -->
+                                </div>
+
+                                <div class="row products mini" id="second-row-trending">
+                                    <!-- second column -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="sectop flexitem">
+                                <h2><span class="circle"></span><span>Produtos Relacionados</span></h2>
+                                <div class="second-links">
+                                    <a href="#" class="view-all">Ver todos<i class="ri-arrow-right-line"></i></a>
+                                </div> 
+                            </div>
+                            <div class="products main flexwrap">
+                                <!-- features -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banners">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="banner flexwrap">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image flexitem">
+                                            <div class="filter-banner"></div>
+                                            <img src="assets/slider/slide1.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Descontos Incríveis!</h4>
+                                            <h3><span>Aproveite as ofertas</span><br>Confira as Novidades</h3>
+                                            <a href="#" class="primary-button">Ver produtos</a>
+                                        </div>
+                                        <a href="#" class="over-link"></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item get-gray">
+                                        <div class="image flexitem">
+                                            <div class="filter-banner"></div>
+                                            <img src="assets/slider/slide2.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Até 60% OFF!</h4>
+                                            <h3><span>Rações Premium</span><br>Seu Pet Merece</h3>
+                                            <a href="#" class="primary-button">Ver produtos</a>
+                                        </div>
+                                        <a href="#" class="over-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-categories flexwrap">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/banners/wdg.jpg" alt="">
+                                        </div>
+                                        <div class="content mini-links">
+                                            <h4>Banho e Tosa</h4>
+                                            <ul class="flexcol">
+                                                <li><a href="#">Banho à Seco e Talcos</a></li>
+                                                <li><a href="#">Pentes, Escovas e Máquinas</a></li>
+                                                <li><a href="#">Sabonetes</a></li>
+                                                <li><a href="#">Alicate e Tesouras</a></li>
+                                                <li><a href="#">Hidratantes</a></li>
+                                            </ul>
+                                            <div class="second-links">
+                                                <a href="#" class="view-all">Ver todos<i class="ri-arrow-right-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/banners/wdg2.jpg" alt="">
+                                        </div>
+                                        <div class="content mini-links">
+                                            <h4>Diversos</h4>
+                                            <ul class="flexcol">
+                                                <li><a href="#">Arranhadores</a></li>
+                                                <li><a href="#">Casinhas</a></li>
+                                                <li><a href="#">Tapetes</a></li>
+                                                <li><a href="#">Limpeza e Higiene</a></li>
+                                                <li><a href="#">Brinquedos</a></li>
+                                            </ul>
+                                            <div class="second-links">
+                                                <a href="#" class="view-all">Ver todos<i class="ri-arrow-right-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/banners/wd2.jpg" alt="">
+                                        </div>
+                                        <div class="content mini-links">
+                                            <h4>Rações</h4>
+                                            <ul class="flexcol">
+                                                <li><a href="#">Ração Seca</a></li>
+                                                <li><a href="#">Ração Úmida</a></li>
+                                                <li><a href="#">Ração Prescrita</a></li>
+                                                <li><a href="#">Ração Natural</a></li>
+                                                <li><a href="#">Ração Premium</a></li>
+                                            </ul>
+                                            <div class="second-links">
+                                                <a href="#" class="view-all">Ver todos<i class="ri-arrow-right-line"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <footer>
+
+            <div class="newsletter">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="content">
+                                <h3>Insceva-se na nossa Newsletter</h3>
+                                <p>Cadastre seu e-mail para ficar por dentro das novidades e receber <strong>ofertas especiais</strong></p>
+                            </div>
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="ri-mail-line"></i></span>
+                                <input type="mail" placeholder="E-mail" required>
+                                <button type="submit">Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widgets">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexwrap">
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Institucional</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Sobre Nós</a></li>
+                                        <li><a href="#">Trabalhe Conosco</a></li>
+                                        <li><a href="#">Canal de Denúncias</a></li>
+                                        <li><a href="#">Relações com Investidores</a></li>
+                                        <li><a href="#">Portal Melhor Amigo</a></li>
+                                        <li><a href="#">Expansão</a></li>
+                                        <li><a href="#">Nossas Unidades</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Aqui Você Encontra</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Assinatura Premium</a></li>
+                                        <li><a href="#">Retire na Loja</a></li>
+                                        <li><a href="#">Nossos Diferenciais</a></li>
+                                        <li><a href="#">Club Melhor Amigo</a></li>
+                                        <li><a href="#">Como Comprar</a></li>
+                                        <li><a href="#">Como Trocar</a></li>
+                                        <li><a href="#">Cupons</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Nossas Políticas</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Entrega e Frete</a></li>
+                                        <li><a href="#">Pagamentos e Reembolso</a></li>
+                                        <li><a href="#">Trocas e Devolução</a></li>
+                                        <li><a href="#">Campanhas e Promoções</a></li>
+                                        <li><a href="#">Política de Privacidade</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Contato e Ajuda</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Atendimento</a></li>
+                                        <li><a href="#">Meus Pedidos</a></li>
+                                        <li><a href="#">Minha Conta</a></li>
+                                        <li><a href="#">Minhas Assinaturas</a></li>
+                                        <li><a href="#">Ouvidoria</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexcol">
+                            <div class="logo">
+                            </div>
+                            <div class="socials">
+                                <ul class="flexitem">
+                                    <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-linkedin-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-youtube-line"></i></a></li>
+                                </ul>
+                            </div>
+                            <p class="mini-text">Desenvolvido por Everton Martins | 2024 - Todos os direito reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-bottom desktop-hide">
+                <div class="container">
+                    <div class="wrapper">
+                        <nav>
+                            <ul class="flexitem">
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-bar-chart-line"></i>
+                                        <span>Produtos</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-user-6-line"></i>
+                                        <span>Conta</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-heart-line"></i>
+                                        <span>Favoritos</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="t-search">
+                                        <i class="ri-search-line"></i>
+                                        <span>Pesquisar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="cart-trigger">
+                                        <i class="ri-shopping-cart-line"></i>
+                                        <span>Carrinho</span>
+                                        <div class="fly-item">
+                                            <span class="item-number">0</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-bottom desktop-hide">
+                <div class="container">
+                    <div class="wrapper">
+                        <form action="" class="search">
+                            <a href="#" class="t-close search-close flexcenter"><i class="ri-close-line"></i></a>
+                            <span class="icon-large"><i class="ri-search-line"></i></span>
+                            <input type="search" placeholder="Buscar produtos">
+                            <button type="submit">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay"></div>
+
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

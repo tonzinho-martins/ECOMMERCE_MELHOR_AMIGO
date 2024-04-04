@@ -1,0 +1,101 @@
+[
+        {
+            "id": 1,
+            "nome": "Ração Golden Special para Cães Adultos Sabor Frango e Carne",
+            "imagem": "assets/products/cachorro/racao/racao_golden1.jpg",
+            "preco_normal": 189.90,
+            "preco_venda": 129.90,
+            "estoque": 300,
+            "marca": "Golden"
+        },
+        {
+            "id": 2,
+            "nome": "Caixa de Transporte Chalesco Gulliver para Cães e Gatos",
+            "imagem": "assets/products/cachorro/acessorios/caixa.jpg",
+            "preco_normal": 389.90,
+            "preco_venda": 219.99,
+            "estoque": 800,
+            "marca": "Gulliver"
+        },
+        {
+            "id": 3,
+            "nome": "Ração GranPlus Choice Frango e Carne para Cães Adultos",
+            "imagem": "assets/products/cachorro/racao/racao_gran_plus.jpg",
+            "preco_normal": 189.90,
+            "preco_venda": 98.99,
+            "estoque": 1000,
+            "marca": "GranPlus"
+        },
+        {
+            "id": 4,
+            "nome": "Cama Petz Puff Deep Blue para Cães",
+            "imagem": "assets/products/cachorro/acessorios/cama.jpg",
+            "preco_normal": 399.90,
+            "preco_venda": 299.99,
+            "estoque": 1200,
+            "marca": "Petz"
+        },
+        {
+            "id": 5,
+            "nome": "Bandeja Sanitária Spike para Gatos",
+            "imagem": "assets/products/gatos/acessorios/banheira.jpg",
+            "preco_normal": 189.90,
+            "preco_venda": 89.99,
+            "estoque": 4500,
+            "marca": "Spike"
+        },
+        {
+            "id": 6,
+            "nome": "Ração Golden Seleção Natural para Gatos Adultos Sabor Frango e Arroz",
+            "imagem": "assets/products/gatos/racao/racao_golden.jpg",
+            "preco_normal": 189.90,
+            "preco_venda": 174.90,
+            "estoque": 580,
+            "marca": "Golden"
+        },
+        {
+            "id": 7,
+            "nome": "Ração Úmida Premier Orgânico para Gatos Adultos Sabor Frango, Chia e Quinoa 70g",
+            "imagem": "assets/products/gatos/racao/racao_umida_Premier.jpg",
+            "preco_normal": 19.90,
+            "preco_venda": 9.99,
+            "estoque": 3500,
+            "marca": "Premier"
+        },
+        {
+            "id": 8,
+            "nome": "Ração Úmida Premier Gourmet Para Gatos Sabor Atum e Arroz integral 70g",
+            "imagem": "assets/products/gatos/racao/racao_umida_Premier2.jpg",
+            "preco_normal": 19.90,
+            "preco_venda": 9.99,
+            "estoque": 3500,
+            "marca": "Premier"
+        },
+        {
+            "id": 9,
+            "nome": "Toalhas Umedecidas Petz para Cães e Gatos",
+            "imagem": "assets/products/cachorro/acessorios/toalha_umedecidas.jpg",
+            "preco_normal": 29.90,
+            "preco_venda": 18.99,
+            "estoque": 420,
+            "marca": "Petz"
+        },
+        {
+            "id": 10,
+            "nome": "Cama M1 Urban Puppy para Cães Microfibra Lisa Marinho",
+            "imagem": "assets/products/cachorro/acessorios/cama2.jpg",
+            "preco_normal": 299.90,
+            "preco_venda": 149.90,
+            "estoque": 360,
+            "marca": "Urban Puppy"
+        },
+        {
+            "id": 11,
+            "nome": "Ração Origens Class para Cães Adultos Sabor Carne e Frango",
+            "imagem": "assets/products/cachorro/racao/racao_origensClass.jpg",
+            "preco_normal": 199.90,
+            "preco_venda": 144.90,
+            "estoque": 700,
+            "marca": "Origens Class"
+        }
+]
